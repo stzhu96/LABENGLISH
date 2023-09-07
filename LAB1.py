@@ -68,7 +68,7 @@ def update_output_image_upload(contents):
 
         # 将图像显示在网页上
         return html.Div([
-            html.H3('上传的图像：'),
+            html.H3('Uploaded image:'),
             html.Img(src=contents, style={'width': '400px'}),
             #html.P(f'L通道均值：{l_mean:.2f}，标准差：{l_std:.2f}'),
             #html.P(f'a通道均值：{a_mean:.2f}，标准差：{a_std:.2f}'),
